@@ -2,7 +2,7 @@ import telebot
 import pandas as pd
 import kaggle
 import zipfile
-bot = telebot.TeleBot('7514399093:AAEcynl23pZx5ZCOtG57uVfjo1c51JjaDJA')#BOT-TOKEN в кавычках должен быть токен
+bot = telebot.TeleBot('BOT-TOKEN')#в кавычках должен быть токен
 @bot.message_handler(content_types=['text'])
 def get_command(message):
     if message.text == "/start":
